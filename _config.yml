@@ -5,13 +5,17 @@ description: "Master's student in MIS at NCU, focusing on applied cryptography &
 url: "https://wcp1203-blip.github.io"
 
 # 載入 Minimal Mistakes 主題
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 
-# 個人資料卡片 (顯示在左側)
+# 必備外掛：讓 GitHub 知道要去抓遠端主題和套用快取
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# 個人資料卡片
 author:
   name: "Wei-Cheng Pan"
-  avatar: "/assets/images/avatar.jpg" # 之後我們可以上傳你的大頭貼替換
+  avatar: "/assets/images/avatar.jpg" 
   bio: "MIS Master's Student @ NCU | Cryptography, IBE & Machine Learning"
   location: "Taiwan"
   links:
