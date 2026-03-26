@@ -30,4 +30,12 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: true   
+
+# 導覽列設定
+header:
+  overlay_filter: 0.5
+  overlay_color: "#333"
+
+# 啟用導覽資料
+nav: "main"
