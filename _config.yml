@@ -1,0 +1,29 @@
+# 網站基本設定
+title: "Wei-Cheng Pan"
+name: "Wei-Cheng Pan (Kevin C. Hsu)"
+description: "Master's student in MIS at NCU, focusing on applied cryptography & data science."
+url: "https://wcp1203-blip.github.io"
+
+# 載入 Minimal Mistakes 主題
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+
+# 個人資料卡片 (顯示在左側)
+author:
+  name: "Wei-Cheng Pan"
+  avatar: "/assets/images/avatar.jpg" # 之後我們可以上傳你的大頭貼替換
+  bio: "MIS Master's Student @ NCU | Cryptography, IBE & Machine Learning"
+  location: "Taiwan"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wcp1203-blip"
+
+# 預設頁面排版
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
