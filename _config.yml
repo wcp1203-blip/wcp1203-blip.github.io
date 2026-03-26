@@ -6,7 +6,7 @@ url: "https://wcp1203-blip.github.io"
 
 # 載入 Minimal Mistakes 主題
 remote_theme: "mmistakes/minimal-mistakes"
-
+minimal_mistakes_skin: "dark"
 # 必備外掛：讓 GitHub 知道要去抓遠端主題和套用快取
 plugins:
   - jekyll-remote-theme
