@@ -15,9 +15,9 @@ plugins:
 # 個人資料卡片
 author:
   name: "Wei-Cheng Pan"
-  # 修復並確認你的頭像路徑 (假設命名為 me.jpg 並放到 assets/images/ 資料夾)
-  avatar: "/assets/images/me.jpg" 
-  # 將 bio 從純文字改為結構化的多行 HTML
+  # 將這裡修改為你的照片路徑 (假設命名為 avatar.jpg 並放到 assets/images/ 資料夾)
+  avatar: "/assets/images/avatar.jpg" 
+  # 這是我幫你設計的精緻 bio，請保留
   bio: |
     <div style="margin-bottom: 15px; border-bottom: 1px solid #ddd; padding-bottom: 5px;">
       <i class="fas fa-fw fa-graduation-cap" aria-hidden="true" style="color: #666; margin-right: 5px;"></i>
