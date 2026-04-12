@@ -4,20 +4,16 @@ name: "Wei-Cheng Pan (Kevin C. Hsu)"
 description: "Master's student in MIS at NCU, focusing on applied cryptography & data science."
 url: "https://wcp1203-blip.github.io"
 
-# 載入 Minimal Mistakes 主題
+# 載入 Minimal Mistakes 主題與外掛
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"
-# 必備外掛：讓 GitHub 知道要去抓遠端主題和套用快取
+minimal_mistakes_skin: "dark" # 深色質感主題
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  
-# 個人資料卡片
+
+# 個人資料卡片 (無照片版本)
 author:
   name: "Wei-Cheng Pan"
-  # 將這裡修改為你的照片路徑 (假設命名為 avatar.jpg 並放到 assets/images/ 資料夾)
-  avatar: "/assets/images/IMG_2282.jpeg"
-  # 這是我幫你設計的精緻 bio，請保留
   bio: |
     <div style="margin-bottom: 15px; border-bottom: 1px solid #ddd; padding-bottom: 5px;">
       <i class="fas fa-fw fa-graduation-cap" aria-hidden="true" style="color: #666; margin-right: 5px;"></i>
@@ -27,7 +23,7 @@ author:
     <div style="line-height: 1.6em; margin-bottom: 10px;">
       <i class="fas fa-fw fa-shield-alt" aria-hidden="true" style="color: #666; margin-right: 5px;"></i>
       <span style="font-weight: bold; color: #333;">Applied Cryptography</span><br>
-      <span style="color: #666; font-size: 0.9em;">Identity-Based Encryption (IBE)</span>
+      <span style="color: #666; font-size: 0.9em;">Blind Signatures & Multi-KGC</span>
     </div>
     <div style="line-height: 1.6em;">
       <i class="fas fa-fw fa-chart-line" aria-hidden="true" style="color: #666; margin-right: 5px;"></i>
@@ -39,6 +35,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wcp1203-blip"
+
 # 預設頁面排版
 defaults:
   - scope:
@@ -46,12 +43,10 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true   
+      author_profile: true
 
 # 導覽列設定
 header:
   overlay_filter: 0.5
   overlay_color: "#333"
-
-# 啟用導覽資料
 nav: "main"
