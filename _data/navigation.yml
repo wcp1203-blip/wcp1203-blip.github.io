@@ -1,8 +1,9 @@
-# main links
 main:
-  - title: "About Me"
-    url: "/"
   - title: "Projects"
-    url: "/projects/"
+    url: /projects/
+
   - title: "CV"
-    url: "/cv/"
+    url: /cv/
+
+  - title: "GitHub"
+    url: https://github.com/wcp1203-blip
