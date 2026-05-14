@@ -6,7 +6,7 @@ url: "https://wcp1203-blip.github.io"
 
 # 載入 Minimal Mistakes 主題與外掛
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # 深色質感主題
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
